@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login - R.K Tex Shop</title>
+  <link rel="stylesheet" href="otp1.css" />
+</head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      padding: 20px;
+    }
+    .container {
+      background-color: white;
+      padding: 30px;
+      width: 350px;
+      margin: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #aaa;
+    }
+    .container h2 {
+      text-align: center;
+    }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 7px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Add New Product</h2>
+    <div class="form-group">
+      <label>Product Name:</label>
+      <input type="text" id="productName">
+    </div>
+    <div class="form-group">
+      <label>Discount:</label>
+      <input type="number" id="discount">
+    </div>
+    <div class="form-group">
+      <label>Amount:</label>
+      <input type="number" id="amount">
+    </div>
+    <div class="form-group">
+      <label>About Product (Description):</label>
+      <textarea id="description" rows="4"></textarea>
+    </div>
+    <div class="form-group">
+      <label>Quantity:</label>
+      <input type="number" id="quantity">
+    </div>
+    <button onclick="addProduct()">Add Product</button>
+  </div>
+
+  <script>
+    function addProduct() {
+      alert("Product Added Successfully!");
+    }
+  </script>
+<footer class="footer">
+  <p>📧 rktexshop@gmail.com</p>
+<p>📞 +91 23456789</p>
+  </footer>
+</body>
+</html>

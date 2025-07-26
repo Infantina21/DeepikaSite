@@ -1,0 +1,98 @@
+
+body {
+     body {
+      background: #f0f0f0;
+      font-family: sans-serif;
+      display: flex;
+ 
+
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+ 
+}
+
+
+  
+
+/* ✅ Centered heading */
+.heading {
+  color: #ff3c3c;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  margin-bottom: 30px;
+}
+body {
+      background: #f0f0f0;
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+background: url('D:/html/tshirt4.jpg') no-repeat center center fixed;
+  background-size: cover;    
+    }
+otp-wrapper {
+  display: flex;
+  justify-content: center;  /* ➡️ Horizontal center */
+  align-items: center;      /* ⬇️ Vertical center */
+  height: 200vh;            /* 🔁 Full screen height */
+}
+
+/* ✅ Login box bigger */
+
+ .otp-box {
+      background: #fff;
+      padding: 40px;
+      border-radius: 15px;
+ width: 400px; /* Bigger width */
+  max-width: 90%;
+      box-shadow: 0 0 10px #ccc;
+ text-align: center;
+    }
+    .otp-box h2 {
+      text-align: center;
+    }
+}
+
+/* ✅ Input fields */
+
+  .input {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+}
+
+/* ✅ Login button */
+.button{
+ margin-top: 15px;
+      padding: 10px;
+      width: 100%;
+      background-color: #4caf50;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      font-weight: bold;
+}
+
+.login-box button:hover {
+  background-color: #d81b60;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+ font-weight: bold;  
+  text-align: center;
+
+  padding: 10px 0;
+  font-size: 20px;
+  color: #444;
+  box-shadow: 0 -1px 5px rgba(0,0,0,0.1);
+}
+
+.footer p {
+  margin: 3px 0;
+		color: #e91e63;
+}
